@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mozingo - Modern Default Colors for CSS Preprocessors</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism-twilight.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-numbers/prism-line-numbers.css" rel="stylesheet">
+  </head>
+  <body>
+    <style>
+      body,body .code{font-family:Montserrat,Helvetica,Arial,sans-serif}body,html{height:100%;width:100%;margin:0}h1,h2,h3,h4,h5,h6{width:100%;margin:0 0 1rem}h2{text-transform:uppercase}body{width:50%;margin:1rem 25% 0;background:#ffda44}body section{width:100%;margin-bottom:2rem}body section:after{display:block;height:.25rem;width:100%;border-radius:.125rem;margin:1rem 0;background:#fff;content:''}body .code{display:block;padding:1em;border-radius:.5rem;background:#9C27B0;color:#fff;text-align:center}body .codePreview{background:#fff;width:calc(100% - 1rem);padding:.25rem;border:.25rem solid #222;border-radius:.5rem}body .codePreview .someDiv{height:50px;width:50px;background:#ef4658}
+    </style>
+    <section>
+      <h1>Mozingo</h1>
+      <h3>Modern default colors for CSS Preprocessors.</h3>
+    </section>
+    <section>
+      <h2>Installation (Coming Soon)</h2>
+      <h3>NPM</h3>
+      <div class="code">npm install mozingo</div>
+      <br>
+      <h3>Bower</h3>
+      <div class="code">bower install mozingo</div>
+    </section>
+    <section>
+      <h2>Basic Usage</h2>
+      <p>Specify the color you want to use as an SCSS variable. In this case, we are using the color red.</p>
+      <pre><code class="language-scss line-numbers">.someDiv {
+        height: 50px;
+        width: 50px;
+        background: $red;
+      }</code></pre>
+      <p>And you'll get the better looking version of it. That's it.</p>
+      <div class="codePreview">
+        <div class="someDiv"></div>
+      </div>
+      <p>When creating a webpage, web developers are often in need of a darker or lighter version of the same color.</p>
+    </section>
+    <section>
+      <h2>Advanced Usage</h2>
+      <p>Mozingo makes it easy to darken or lighten any color.</p>
+      <h3>Dark Colors</h3>
+      <pre><code class="language-scss line-numbers">.someDiv {
+        height: 50px;
+        width: 50px;
+        background: $redDark;
+      }</code></pre>
+      <div class="codePreview">
+        <div class="someDiv"></div>
+      </div>
+      <br>
+      <h3>Light Colors</h3>
+      <pre><code class="language-scss line-numbers">.someDiv {
+        height: 50px;
+        width: 50px;
+        background: $redLight;
+      }</code></pre>
+      <div class="codePreview">
+        <div class="someDiv"></div>
+      </div>
+      <br>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+  </body>
+</html>
