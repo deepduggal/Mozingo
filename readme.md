@@ -27,7 +27,7 @@ Mozingo is super easy to install.
 
 ## Usage
 
-1. Pick a color (see color list below). Use it as a variable like you normally would in you SASS, SCSS, or LESS. 
+Pick a color (see color list below). Use it as a variable like you normally would in you SASS, SCSS, or LESS. 
 
 ### SASS
 
@@ -42,8 +42,8 @@ Mozingo is super easy to install.
     color: @blue;
  
 
-2. Use a darker or lighter version of a base color by adding a one of the valid keywords (Dark, Darker, Light, or Lighter) to the variable name:
-
+Use a darker or lighter version of a base color by adding a one of the valid keywords (Dark, Darker, Light, or Lighter) to the variable name:
+    
     color: $red;
     
     color: $redLight; // A lighter red.
