@@ -27,7 +27,7 @@ Mozingo is super easy to install.
 
 ## Usage
 
-Pick a color (see color list below). Use it as a variable like you normally would in you SASS, SCSS, or LESS. 
+Pick a color (see color list below). Use it as a SASS/SCSS, or LESS variable. Variable names will always be in camelCase.
 
 ### SASS
 
