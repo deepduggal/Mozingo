@@ -1,10 +1,10 @@
-# Mozingo - Modern default colors for CSS Preprocessors
+# Mozingo - Modern Colors for CSS Preprocessors
 
-- No dependencies
-- Tiny file size. Furthermore, only the colors you use will appear in your final CSS. 
-- Works with all popular preprocessors
-- Create faster. Make web apps that are beautiful right out of the box. 
-- Perfect for mockups and live production. 
+- Tiny file size. 
+- In most cases, this file will NEVER be served to your users. No http requests. No load time. No problem. 
+- Works with SASS, SCSS, and LESS. It's your choice. 
+- Save time. Make web apps that are beautiful right out of the box. 
+- Perfect for mockups and live production websites. 
 
 ## Installation
 
